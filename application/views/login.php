@@ -2,7 +2,7 @@
 <html lang="en">
   	<link rel="stylesheet" type="text/css" href="<?php echo ASSET_PATH ?>/css/login.css" />
 	<head>
-		<title>SVS SHOPPING</title>		
+		<title>V-Shop</title>		
 	</head>
 	<body>
 		<img  id="svs" />
@@ -19,6 +19,11 @@
 				</form>
 		</div>
 		<script>var r = ['app/login']</script>
+			<footer id="footer"><!--Footer-->
+				<div class="footer-bottom">
+					<p class="pull-left">Copyright © Somebody.</p>					
+				</div>
+			</footer><!--/Footer-->		
 		<script data-main="<?php echo ASSET_PATH ?>/js/main" src="<?php echo ASSET_PATH ?>/js/require.js"></script>
 	</body>
 </html>
