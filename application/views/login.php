@@ -8,7 +8,7 @@
 		<img  id="svs" />
 		<div class="container">
 				<img src="/jivox/assets/img/logo3.png" alt="SVS" id="logo"/>
-				<form action="welcome/login_process" method="POST">				
+				<form action="welcome/login_process" method="POST" id='loginform'>				
 				  <div>
 					Username and Password<br /><br />
 					<input type="text" id="username" name="username" placeholder="Username" required /><br/>
@@ -17,7 +17,8 @@
 				  <button type="submit" id="login_btn" class="">Login</button>
 				  <br /><p id="loginTxt"></p>				  
 				</form>
-		</div>		
+		</div>
+		<script>var r = ['app/login']</script>
 		<script data-main="<?php echo ASSET_PATH ?>/js/main" src="<?php echo ASSET_PATH ?>/js/require.js"></script>
 	</body>
 </html>
