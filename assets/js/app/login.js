@@ -5,8 +5,12 @@ define(['jquery','jquery.form','notify'],function($){
 		 * Process Login
 		 */
 		$('#loginform').ajaxForm({
-			success: function(response) {				
-				$('#login_btn').notify(response,{position:'bottom'});
+			success: function(response) {
+				if(response=='success') {
+					window.location.href= '/jivox/products/product';
+				} else{				
+					$('#login_btn').notify(response,{position:'bottom'});
+				}
 			},
 			error:function (jqXHR){}
 		});
