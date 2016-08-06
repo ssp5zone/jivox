@@ -1,0 +1,24 @@
+html {height: 100%}
+body {background:url(/assets/img/login_bg.jpg); background-size:cover; font:12px Verdana}
+#hawk {position:fixed;bottom:0;left:0}
+#logo{margin-bottom:50px;}
+.container{margin-top:100px; text-align:center}
+#username, #password, #login_btn {border:1px solid #ccc;padding:5px;text-align:center; width:300px;}
+#username{border-top-left-radius:3px;border-top-right-radius:3px;margin-bottom:-1px}
+#password{border-bottom-left-radius:3px;border-bottom-right-radius:3px;margin-bottom:20px;}
+#login_btn {background:#5bc0de;border-radius:5px;color:#fff;border:1px solid #46b8da;}
+#login_btn:disabled {opacity:0.8;}
+#loginTxt,#jscript{font-size:11px; background-color:rgba(255,0,0,0.5);width:300px;margin:auto;margin-top:10px;padding:5px;color:#fff;border-radius:5px;display:none}
+#disclaimer {position:absolute;bottom:10px;left:30px;right:30px;font-size:10px;background:#fff;background:rgba(255,255,255,0.7);padding:5px;text-align:center}
+#jscript{display:block;width:500px;}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 480px) {
+	#hawk{display:none}
+	#logo{width:90%}
+}
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen and (min-width : 480px) and (max-width : 800px){
+	#hawk{display:none}
+}
