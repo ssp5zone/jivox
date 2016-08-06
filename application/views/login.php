@@ -2,15 +2,15 @@
 <html lang="en">
   	<link rel="stylesheet" type="text/css" href="<?php echo ASSET_PATH ?>/css/login.css" />
 	<head>
-		<title>SVS SHOPING</title>		
+		<title>SVS SHOPPING</title>		
 	</head>
 	<body>
 		<img  id="svs" />
 		<div class="container">
-				<img src="#" alt="SVS" id="logo"/>
-				<form action='welcome/login_process' type='POST'>				
+				<img src="/jivox/assets/img/logo3.png" alt="SVS" id="logo"/>
+				<form action="welcome/login_process" method="POST">				
 				  <div>
-					LAN ID and Password<br /><br />
+					Username and Password<br /><br />
 					<input type="text" id="username" name="username" placeholder="Username" required /><br/>
 					<input type="password" id="password" name="password" placeholder="Password" required />
 				  </div>
