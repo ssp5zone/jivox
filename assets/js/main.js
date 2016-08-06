@@ -1,5 +1,5 @@
 require.config({
-    baseUrl: '/assets/js/lib/',
+    baseUrl: '/jivox/assets/js/lib/',
 	shim : {
         "jquery.form" 		 : { "deps" :['jquery'] },
 		"notify" 			 : { "deps" :['jquery'] },
