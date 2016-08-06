@@ -1,8 +1,8 @@
 html {height: 100%}
-body {background:url(/jivox/assets/img/login-back.jpg); background-size:cover; font:12px Verdana}
+body {background:url(/jivox/assets/img/login-back.jpg); background-size:cover; margin: 0; font:12px Verdana}
 #logo{margin-bottom:50px;margin-top: 30px;	padding-left: 10px;}
 .container{
-			    margin-top: 150px;
+				margin-top: 150px;
 			    text-align: center;
 			    width: 380px;
 			    height: 425px;
@@ -26,4 +26,16 @@ body {background:url(/jivox/assets/img/login-back.jpg); background-size:cover; f
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 480px) {
 	#logo{width:90%}
+}
+
+footer {
+	position: absolute;
+    bottom: 0;
+    height: 40px;
+    background-color: #FE980F;
+    width:100%;
+}
+
+.footer-bottom {
+	padding-left: 10px;
 }
