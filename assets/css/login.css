@@ -1,8 +1,18 @@
 html {height: 100%}
-body {background:url(/assets/img/login_bg.jpg); background-size:cover; font:12px Verdana}
-#hawk {position:fixed;bottom:0;left:0}
-#logo{margin-bottom:50px;}
-.container{margin-top:100px; text-align:center}
+body {background:url(/jivox/assets/img/login-back.jpg); background-size:cover; font:12px Verdana}
+#logo{margin-bottom:50px;margin-top: 30px;}
+.container{
+				margin-top: 150px;
+			    text-align: center;
+			    width: 380px;
+			    height: 425px;
+			    padding-bottom: 30px;
+			    margin-left: auto;
+			    margin-right: auto;
+			    background-color: #d3d3e2;
+			    border-radius: 20px;
+			    opacity: 0.95;
+		  }
 #username, #password, #login_btn {border:1px solid #ccc;padding:5px;text-align:center; width:300px;}
 #username{border-top-left-radius:3px;border-top-right-radius:3px;margin-bottom:-1px}
 #password{border-bottom-left-radius:3px;border-bottom-right-radius:3px;margin-bottom:20px;}
@@ -14,11 +24,5 @@ body {background:url(/assets/img/login_bg.jpg); background-size:cover; font:12px
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 480px) {
-	#hawk{display:none}
 	#logo{width:90%}
-}
-
-/* Tablets (portrait and landscape) ----------- */
-@media only screen and (min-width : 480px) and (max-width : 800px){
-	#hawk{display:none}
 }
